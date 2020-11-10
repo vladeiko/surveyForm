@@ -1,17 +1,23 @@
 body {
   margin: 0 auto;
+  height: 100%;
+
   font-family: Noto Sans, sans-serif;
   line-height: 1.5;
-  background-image: url(/img/background.jpeg);
   color: white;
+
+  background-image: url(/img/background.jpeg);
+  background-size: cover;
 }
 
 .filter-box {
   height: 100%;
   width: 100%;
+
   display: flex;
   align-items: center;
   flex-direction: column;
+
   background-color: rgba(0, 32, 173, 0.432);
 }
 /* 
@@ -20,26 +26,35 @@ body {
 /* 
 .header-name {
 } */
-/* 
+
 .header-text {
   font-style: italic;
-} */
+}
 
 .form-container {
   background-color: rgba(23, 27, 63, 0.918);
+
+  border-radius: 10px;
 }
 /* 
 .main-form {
 } */
-/* 
+
 .form-text {
-} */
-/* 
+  box-sizing: border-box;
+}
+
 .form-input {
-} */
-/* 
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
 .form-select {
-} */
+  width: 100%;
+
+  box-sizing: border-box;
+}
 /* 
 .form-radio-input {
 } */
@@ -49,7 +64,15 @@ body {
 
 .form-textarea {
   resize: vertical;
+
+  box-sizing: border-box;
 }
-/* 
+
 .form-button {
-} */
+  width: 100%;
+
+  color: white;
+  background: rgba(58, 128, 79, 0.877);
+
+  text-align: center;
+}
