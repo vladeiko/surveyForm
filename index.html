@@ -14,33 +14,39 @@
       </p>
     </div>
     <div class="form-container">
-      <form action="" class="main-form">
+      <form class="main-form">
         <p class="form-text">
-          Name <br /><input
+          <label for="enter-name">Name</label>
+          <input
             type="text"
             placeholder="Enter your name"
             class="form-input"
+            id="enter-name"
           />
         </p>
         <p class="form-text">
-          Email <br /><input
+          <label for="enter-email">Email</label>
+          <input
             type="text"
             placeholder="Enter your Email"
             class="form-input"
+            id="enter-email"
           />
         </p>
         <p class="form-text">
-          Age <br /><input
+          <label for="enter-age">Age</label>
+          <input
             type="number"
             class="form-input"
             min="10"
             max="99"
             placeholder="Age"
+            id="enter-age"
           />
         </p>
         <p class="form-text">
-          Which option best describes your current role?<br />
-          <select name="current-role" id="" class="form-select">
+          Which option best describes your current role?
+          <select name="current-role" class="form-select">
             <option disabled selected>Select current role</option>
             <option>Student</option>
             <option>Full Time Job</option>
@@ -49,28 +55,35 @@
             <option>Other</option>
           </select>
         </p>
+
+        <p class="form-text">Would you recommend freeCodeCamp to a friend?</p>
         <p class="form-text">
           <input
             type="radio"
-            name="wouldRecommend"
+            name="radio-would-recommend"
+            id="radio-definetly"
             class="form-radio-input"
-            value="yes"
-          />Definetly <br />
-          <input
-            type="radio"
-            name="wouldRecommend"
-            class="form-radio-input"
-            value="maybe"
-          />Maybe <br />
-          <input
-            type="radio"
-            name="wouldRecommend"
-            class="form-radio-input"
-            value="no"
-          />Not sure <br />
+          /><label for="radio-definetly">Definetly</label>
         </p>
         <p class="form-text">
-          What is your favorite feature of freeCodeCamp?<br />
+          <input
+            type="radio"
+            name="radio-would-recommend"
+            id="radio-maybe"
+            class="form-radio-input"
+          /><label for="radio-maybe">Maybe</label>
+        </p>
+        <p class="form-text">
+          <input
+            type="radio"
+            name="radio-would-recommend"
+            id="radio-no"
+            class="form-radio-input"
+          /><label for="radio-no">Not sure</label>
+        </p>
+
+        <p class="form-text">
+          What is your favorite feature of freeCodeCamp?
           <select name="favorite-feature" id="" class="form-select">
             <option disabled selected>Select an option</option>
             <option>Challenges</option>
@@ -81,24 +94,55 @@
         </p>
         <p class="form-text">
           What would you like to see improved?
-          <span class="little-comment"></span>(Check all that apply) <br />
-          <input type="checkbox" class="checkbox-input" />Front-end Projects<br />
-          <input type="checkbox" class="checkbox-input" />Back-end Projects<br />
-          <input type="checkbox" class="checkbox-input" />Data visualization<br />
-          <input type="checkbox" class="checkbox-input" />Challenges<br />
-          <input type="checkbox" class="checkbox-input" />Open Source
-          Community<br />
-          <input type="checkbox" class="checkbox-input" />Gitter help rooms<br />
-          <input type="checkbox" class="checkbox-input" />Videos<br />
-          <input type="checkbox" class="checkbox-input" />City Meetups<br />
-          <input type="checkbox" class="checkbox-input" />Wiki<br />
-          <input type="checkbox" class="checkbox-input" />Forum<br />
-          <input type="checkbox" class="checkbox-input" />Aditional Courses<br />
+          <span class="little-comment"></span>(Check all that apply)
         </p>
         <p class="form-text">
-          Any comments or suggestions?<br /><textarea
+          <input type="checkbox" class="checkbox-input" id="check-0" />
+          <label for="check-0">Front-end projects</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-1" />
+          <label for="check-1">Back-end projects</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-2" />
+          <label for="check-2">Data visualization</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-3" />
+          <label for="check-3">Challenges</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-4" />
+          <label for="check-4">Open Source Community</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-5" />
+          <label for="check-5">Gitter help rooms</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-6" />
+          <label for="check-6">Videos</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-7" />
+          <label for="check-7">City meetups</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-8" />
+          <label for="check-8">Wiki</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-9" />
+          <label for="check-9">Forum</label>
+        </p>
+        <p class="form-text">
+          <input type="checkbox" class="checkbox-input" id="check-10" />
+          <label for="check-10">Additional courses</label>
+        </p>
+        <p class="form-text">
+          Any comments or suggestions?<textarea
             name="form textarea"
-            id=""
             class="form-textarea"
           ></textarea>
         </p>
