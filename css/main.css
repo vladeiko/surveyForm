@@ -17,22 +17,17 @@ body {
   background-position: center top;
 }
 
-.filter-box {
-  height: 100%;
-  width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .header-container {
+  margin: 0 auto;
+
+  padding-left: 120px;
+
   text-align: center;
 }
-/* 
+
 .header-name {
-} */
+  text-align: center;
+}
 
 .header-text {
   font-style: italic;
@@ -40,6 +35,8 @@ body {
 
 .form-container {
   background-color: rgba(23, 27, 63, 0.918);
+
+  margin: 0 auto;
 
   width: 100%;
   max-width: 750px;
