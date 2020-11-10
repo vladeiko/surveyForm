@@ -7,111 +7,109 @@
     <title>Survey Form</title>
   </head>
   <body>
-    <div class="header-container">
-      <h1 class="header-name">freeCodeCamp Survey Form</h1>
-      <p class="header-text">
-        Thank you for taking the time to help us improve the platform
-      </p>
-    </div>
-    <div class="form-container">
-      <form action="" class="main-form">
-        <p class="form-text">
-          Name <br /><input
-            type="text"
-            placeholder="Enter your name"
-            class="form-input"
-          />
+    <div class="filter-box">
+      <div class="header-container">
+        <h1 class="header-name">freeCodeCamp Survey Form</h1>
+        <p class="header-text">
+          Thank you for taking the time to help us improve the platform
         </p>
-        <p class="form-text">
-          Email <br /><input
-            type="text"
-            placeholder="Enter your Email"
-            class="form-input"
-          />
-        </p>
-        <p class="form-text">
-          Age <br /><input
-            type="number"
-            class="form-input"
-            min="10"
-            max="99"
-            placeholder="Age"
-          />
-        </p>
-        <p class="form-text">
-          Which option best describes your current role?<br /><select
-            name="current-role"
-            id=""
-            class="form-select"
-          >
-            <option disabled selected>Select current role</option>
-            <option>Student</option>
-            <option>Full Time Job</option>
-            <option>Full Time Learner</option>
-            <option>Prefer Not To Say</option>
-            <option>Other</option>
-          </select>
-        </p>
-        <p class="form-text">
-          <input
-            type="radio"
-            name="wouldRecommend"
-            class="form-radio-input"
-            value="yes"
-          />Definetly <br />
-          <input
-            type="radio"
-            name="wouldRecommend"
-            class="form-radio-input"
-            value="maybe"
-          />Maybe <br />
-          <input
-            type="radio"
-            name="wouldRecommend"
-            class="form-radio-input"
-            value="no"
-          />Not sure <br />
-        </p>
-        <p class="form-text">
-          What is your favorite feature of freeCodeCamp?<br /><select
-            name="favorite-feature"
-            id=""
-            class="form-select"
-          >
-            <option disabled selected>Select an option</option>
-            <option>Challenges</option>
-            <option>Projects</option>
-            <option>Community</option>
-            <option>Open Source</option>
-          </select>
-        </p>
-        <p class="form-text">
-          What would you like to see improved?
-          <span class="little-comment"></span>(Check all that apply) <br />
-          <input type="checkbox" class="checkbox-input" />Front-end Projects<br />
-          <input type="checkbox" class="checkbox-input" />Back-end Projects<br />
-          <input type="checkbox" class="checkbox-input" />Data visualization<br />
-          <input type="checkbox" class="checkbox-input" />Challenges<br />
-          <input type="checkbox" class="checkbox-input" />Open Source
-          Community<br />
-          <input type="checkbox" class="checkbox-input" />Gitter help rooms<br />
-          <input type="checkbox" class="checkbox-input" />Videos<br />
-          <input type="checkbox" class="checkbox-input" />City Meetups<br />
-          <input type="checkbox" class="checkbox-input" />Wiki<br />
-          <input type="checkbox" class="checkbox-input" />Forum<br />
-          <input type="checkbox" class="checkbox-input" />Aditional Courses<br />
-        </p>
-        <p class="form-text">
-          Any comments or suggestions?<br /><textarea
-            name="form textarea"
-            id=""
-            cols="60"
-            rows="10"
-            class="form-textarea"
-          ></textarea>
-        </p>
-        <p class="form-text"><button class="form-button">Submit</button></p>
-      </form>
+      </div>
+      <div class="form-container">
+        <form action="" class="main-form">
+          <p class="form-text">
+            Name <br /><input
+              type="text"
+              placeholder="Enter your name"
+              class="form-input"
+            />
+          </p>
+          <p class="form-text">
+            Email <br /><input
+              type="text"
+              placeholder="Enter your Email"
+              class="form-input"
+            />
+          </p>
+          <p class="form-text">
+            Age <br /><input
+              type="number"
+              class="form-input"
+              min="10"
+              max="99"
+              placeholder="Age"
+            />
+          </p>
+          <p class="form-text">
+            Which option best describes your current role?<br />
+            <select name="current-role" id="" class="form-select">
+              <option disabled selected>Select current role</option>
+              <option>Student</option>
+              <option>Full Time Job</option>
+              <option>Full Time Learner</option>
+              <option>Prefer Not To Say</option>
+              <option>Other</option>
+            </select>
+          </p>
+          <p class="form-text">
+            <input
+              type="radio"
+              name="wouldRecommend"
+              class="form-radio-input"
+              value="yes"
+            />Definetly <br />
+            <input
+              type="radio"
+              name="wouldRecommend"
+              class="form-radio-input"
+              value="maybe"
+            />Maybe <br />
+            <input
+              type="radio"
+              name="wouldRecommend"
+              class="form-radio-input"
+              value="no"
+            />Not sure <br />
+          </p>
+          <p class="form-text">
+            What is your favorite feature of freeCodeCamp?<br />
+            <select name="favorite-feature" id="" class="form-select">
+              <option disabled selected>Select an option</option>
+              <option>Challenges</option>
+              <option>Projects</option>
+              <option>Community</option>
+              <option>Open Source</option>
+            </select>
+          </p>
+          <p class="form-text">
+            What would you like to see improved?
+            <span class="little-comment"></span>(Check all that apply) <br />
+            <input type="checkbox" class="checkbox-input" />Front-end
+            Projects<br />
+            <input type="checkbox" class="checkbox-input" />Back-end Projects<br />
+            <input type="checkbox" class="checkbox-input" />Data
+            visualization<br />
+            <input type="checkbox" class="checkbox-input" />Challenges<br />
+            <input type="checkbox" class="checkbox-input" />Open Source
+            Community<br />
+            <input type="checkbox" class="checkbox-input" />Gitter help rooms<br />
+            <input type="checkbox" class="checkbox-input" />Videos<br />
+            <input type="checkbox" class="checkbox-input" />City Meetups<br />
+            <input type="checkbox" class="checkbox-input" />Wiki<br />
+            <input type="checkbox" class="checkbox-input" />Forum<br />
+            <input type="checkbox" class="checkbox-input" />Aditional Courses<br />
+          </p>
+          <p class="form-text">
+            Any comments or suggestions?<br /><textarea
+              name="form textarea"
+              id=""
+              cols="60"
+              rows="10"
+              class="form-textarea"
+            ></textarea>
+          </p>
+          <p class="form-text"><button class="form-button">Submit</button></p>
+        </form>
+      </div>
     </div>
   </body>
 </html>

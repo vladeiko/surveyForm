@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  font-family: Noto Sans, sans-serif;
+  line-height: 1.5;
+  background-image: url(/img/background.jpeg);
+  color: white;
+}
+
+.filter-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 32, 173, 0.432);
+}
+/* 
+.header-container {
+} */
+/* 
+.header-name {
+} */
+/* 
+.header-text {
+  font-style: italic;
+} */
+
+.form-container {
+  background-color: rgba(23, 27, 63, 0.918);
+}
+/* 
+.main-form {
+} */
+/* 
+.form-text {
+} */
+/* 
+.form-input {
+} */
+/* 
+.form-select {
+} */
+/* 
+.form-radio-input {
+} */
+/* 
+.chechbox-input {
+} */
+
+.form-textarea {
+  resize: vertical;
+}
+/* 
+.form-button {
+} */
