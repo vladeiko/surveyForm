@@ -40,7 +40,7 @@ body {
   max-width: 750px;
   padding: 10px 60px;
 
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /* 
 .main-form {
@@ -59,7 +59,7 @@ body {
 
   outline: none;
 
-  border-radius: 10px;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 
@@ -72,7 +72,7 @@ body {
 
   outline: none;
 
-  border-radius: 10px;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 
@@ -92,7 +92,7 @@ body {
 
   outline: none;
 
-  border-radius: 10px;
+  border-radius: 5px;
 
   width: 100%;
   height: 160px;
@@ -103,7 +103,7 @@ body {
   width: 100%;
   height: 60px;
 
-  border-radius: 10px;
+  border-radius: 5px;
 
   color: white;
   background: rgba(58, 128, 79, 0.877);
